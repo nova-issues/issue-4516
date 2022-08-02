@@ -18,26 +18,26 @@ class UserTableSeeder extends Seeder
 
         User::forceCreate([
             'name' => 'Taylor Otwell',
-            'email' => 'taylor@laravel.com',
-            'password' => $password,
+            'u_emailadres' => 'taylor@laravel.com',
+            'u_sleutel' => $password,
         ]);
 
         User::forceCreate([
             'name' => 'Mohamed Said',
-            'email' => 'mohamed@laravel.com',
-            'password' => $password,
+            'u_emailadres' => 'mohamed@laravel.com',
+            'u_sleutel' => $password,
         ]);
 
         User::forceCreate([
             'name' => 'David Hemphill',
-            'email' => 'david@laravel.com',
-            'password' => $password,
+            'u_emailadres' => 'david@laravel.com',
+            'u_sleutel' => $password,
         ]);
 
         User::forceCreate([
             'name' => 'Laravel Nova',
-            'email' => 'nova@laravel.com',
-            'password' => $password,
+            'u_emailadres' => 'nova@laravel.com',
+            'u_sleutel' => $password,
         ]);
     }
 }
